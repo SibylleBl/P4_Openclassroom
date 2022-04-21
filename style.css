@@ -7,6 +7,10 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+    background-color: #F3976C!important;
+}
+
 a,
 button {
     transition: all .3s ease-in-out;
@@ -653,6 +657,28 @@ a {
     font-weight: 400;
     color: #000000!important;
 }
+
+div.col-sm-12 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p.description {
+    width: 60%;
+    font-size: 20px; 
+}
+
+p.temoignage {
+    font-size: 20px;
+}
+
+p.temoigne_nom {
+    width: 20%;
+    font-size: 18px;
+}
+
 
 .container {
     max-width: 1000px;
