@@ -14,7 +14,7 @@ header img {
     height: 40px;
 }
 
-footer li {
+footer li, footer p{
     font-size: 30px;
 }
 
