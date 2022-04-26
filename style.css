@@ -117,11 +117,11 @@ div.bloc-lg img {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: #FFFFFF;
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: #FFFFFF;
 }
 
 .d-bloc .icon-round,
@@ -129,7 +129,7 @@ div.bloc-lg img {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: #FFFFFF;
 }
 
 .d-bloc .divider-h span {
@@ -664,11 +664,15 @@ h5,
 h6,
 p,
 label,
-.btn,
-a {
+.btn
+ {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
+}
+
+a {
+    color: #FFFFFF!important;
 }
 
 div.col-sm-12 {
