@@ -7,15 +7,16 @@ body {
     -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-    background-color: #F3976C!important;
-}
+
 
 header img {
     width: 100%;
     height: 40px;
 }
 
+footer div.text-center {
+    margin-right: 10em;
+}
 
 
 a,
