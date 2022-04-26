@@ -14,8 +14,8 @@ header img {
     height: 40px;
 }
 
-footer div.text-center {
-    margin-right: 10em;
+a {
+    min-width: 48px;
 }
 
 
@@ -664,14 +664,17 @@ h5,
 h6,
 p,
 label,
-.btn
+.btn,
+a
  {
     font-family: "helvetica";
     font-weight: 400;
     color: #000000!important;
 }
 
-a {
+
+
+footer a {
     color: #FFFFFF!important;
 }
 
@@ -748,8 +751,9 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
 }
 
 h3 {
